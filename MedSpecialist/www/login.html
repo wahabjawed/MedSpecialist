@@ -32,18 +32,47 @@
     <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>MedicalSpecialist</title>
-         <script src="js/jquery-1.11.1.min.js"></script>
-        <script src="js/bootstrap.js"></script>  
+        <title>Hello World</title>
+        
         <style>
         
         body {
-
-background: url('img/bg.jpg') no-repeat center center fixed;
-background-size:100% auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
 }
 
-
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading{
+  margin-bottom: 10px;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
         
         </style>
         
@@ -51,36 +80,18 @@ background-size:100% auto;
     </head>
     <body>
        <div class="container">
-<div class="jumbotron" style="margin-top:50px;background-color:rgba(255,255,255,0.7);">
-   <h1 style="padding-top: 15px; color: #1ACBD4; font-weight: bolder">MedSpecialist</h1>
-   <br>
-   <br>
- 
-   <center>
-   <h5>As a patient, a tool to find the best doctor</h5>
-   <h5>As a doctor, a way to express yourself</h5>
-   <br> 
 
-   <div>
-  <button type="button" class="btn btn-warning" style="width:100px">
- Patient
-  </button>
- 
-</div>
+      <form class="form-signin" role="form">
+        <center>
+        <h2 class="form-signin-heading">Log-in</h2>
+        </center>
+        <br>
+        <input type="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" class="form-control" placeholder="Password" required>
+      
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
 
-<!-- Single button -->
-<div class="btn-group" style="padding-top:20px">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width:100px">
-    Doctor <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="login.html">Log-in</a></li>
-    <li><a href="register.html">Sign-up</a></li>
-  </ul>
-</div>
-
-</center>
-</div>
     </div> <!-- /container -->
 
         <script type="text/javascript" src="cordova.js"></script>

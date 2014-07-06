@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        
+        <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    
+        <title>MedicalSpecialist</title>
+    </head>
+    <body>
+       <div class="container">
+
+<div class="jumbotron" style="margin-top:20px">
+  <h2>Sign-Up as a Doctor</h2>
+  <form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputName" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name" required autofocus>
+    </div>
+  </div>
+  
+    <div class="form-group">
+    <label for="inputSpeciality" class="col-sm-2 control-label">Speciality</label>
+    <div class="col-sm-10">
+    <select class="form-control" name="inputSpeciality" id="inputSpeciality" required>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+    </div>
+  </div>
+  
+  
+   <div class="form-group">
+    <label for="inputLicense" class="col-sm-2 control-label">License Number</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="inputLicense" id="inputLicense" placeholder="License Number" required>
+    </div>
+  </div>
+  
+     <div class="form-group">
+    <label for="inputLocation" class="col-sm-2 control-label">Location</label>
+    <div class="col-sm-10">
+<select class="form-control" name="inputLocation" id="inputLocation" required>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+    
+    </div>
+  </div>
+  
+  
+    <div class="form-group">
+    <label for="inputInsurance" class="col-sm-2 control-label">Accepted Insurance</label>
+    <div class="col-sm-10">
+	<select class="form-control" name="inputInsurance" id="inputInsurance" 	required>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  </select>    
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <label for="inputPInsurance" class="col-sm-2 control-label">Accepted Private Insurance</label>
+    <div class="col-sm-10">
+	<select class="form-control" name="inputPInsurance" id="inputPInsurance" 	required>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  </select>    
+    </div>
+  </div>
+  
+  
+     <div class="form-group">
+    <label for="inputPicture" class="col-sm-2 control-label">Picture</label>
+    <div class="col-sm-10">
+        <input type="file" id="inputPicture">
+    </div>
+  </div>
+  
+  
+  
+       <div class="form-group">
+    <label for="inputBio" class="col-sm-2 control-label">Bio</label>
+    <div class="col-sm-10">
+  <textarea class="form-control" id="inputBio" name=="inputBio" rows="3"></textarea>
+    </div>
+  </div>
+  
+     <div class="form-group">
+    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="Email" required>
+    </div>
+  </div>
+  
+     <div class="form-group">
+    <label for="inputPhone" class="col-sm-2 control-label">Phone Number</label>
+    <div class="col-sm-10">
+      <input type="tel" class="form-control" name="inputPhone" id="inputPhone" placeholder="Phone Number" required>
+    </div>
+  </div>
+  
+  
+      <div class="form-group">
+    <label for="inputUser" class="col-sm-2 control-label">Username</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="inputUser" id="inputUser" placeholder="Username" required>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign up</button>
+    </div>
+   
+  </div>
+</form></div>
+
+    </div> <!-- /container -->
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
