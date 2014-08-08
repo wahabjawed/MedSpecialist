@@ -76,7 +76,7 @@ this.httpRequest = function (request_url, type, data, dataType, succesCallBack, 
     	}
     	
     	if(type == JSON_CONSTANTS.POST && (request_url.indexOf('login') == -1) ) {
-    		//ajaxSettings["dataType"] = dataType;
+    		ajaxSettings["dataType"] = dataType;
     		//ajaxSettings["contentType"] = JSON_CONSTANTS.CONTENT_TYPE;
 		} 
     	else if(type == JSON_CONSTANTS.PUT) {
