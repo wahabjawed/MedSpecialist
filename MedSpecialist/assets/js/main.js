@@ -21,8 +21,6 @@ function signupButton(){
 	var inputUser = $('#inputUser').val();
 	var inputPassword = $('#inputPassword').val();
 	var picture = "pic.png";
-	alert(inputUser);
-	alert(inputPassword);
 	
 	
 	var requestData = {"name": name, "inputSpeciality": inputSpeciality, "inputLicense": inputLicense, 
@@ -42,16 +40,7 @@ function signupRequest(requestData)
 	var registerSuccess = function(response) {
 		response = JSON.stringify(response);
 		console.log('response: ' + response);
-		//alert(response);
-		/*var successMsg;
-		if(response.success != null) {
-			successMsg = response.success;
-			alert(successMsg);
-		}
-		else {
-			//successMsg = response.errors[0].message;
-			alert(successMsg);
-		}*/
+		
 	}
 	console.log('JSON.stringify(requestData): '+ JSON.stringify(requestData));
 	var jsonHelper = new ServiceHelper();
@@ -74,4 +63,28 @@ function loginButton()
 	var password = $('#loginPass').val();
 	
 	var requestData = { "email": email, "password": password }
+	
+	loginUser(requestData);
+}
+
+function loginUser(requestData)
+{
+	
+	var registerFailed = function (response) {
+		alert('failed response: ' + JSON.stringify(response));
+		failedResponse(response, APP_CONSTANTS.MSG_ACTION_FAILED);
+    }
+	
+	var registerSuccess = function(response) {
+		response = JSON.parse(response);
+		
+		if(response.success!=null){
+			alert(response.success);
+		}
+		
+	}
+	
+	var jsonHelper = new ServiceHelper();
+	jsonHelper.loginUser(JSON_CONSTANTS.POST, requestData, registerSuccess, registerFailed);	
+	
 }

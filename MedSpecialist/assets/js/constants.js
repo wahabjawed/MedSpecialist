@@ -1,8 +1,8 @@
 var APP_CONSTANTS = {
     BASE_URL: "http://fajjemobile.info/MedSpecialist/",
 	REGISTER: "register.php",
-	MSG_ACTION_FAILED: "Failed"
-	
+	MSG_ACTION_FAILED: "Failed",
+	LOGIN: "login.php"
 }
 
 var JSON_CONSTANTS = {
