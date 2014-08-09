@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        
+        <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    
+        <title>MedicalSpecialist</title>
+    </head>
+    <body>
+       <div class="container">
+
+<div class="jumbotron" style="margin-top:20px">
+  <h2>Search Doctor</h2>
+  <form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputName" class="col-sm-2 control-label">Search</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Search" required autofocus>
+    </div>
+  </div>
+   <div class="form-group">
+   <div class="col-sm-10">    <select class="form-control" name="inputSpeciality" id="inputSpeciality" multiple required style="height:250px">
+ <option value="0">Select</option>
+  <option value="1">Nose, Ear, Throat (Otolaryngologist)</option>
+  <option value="2">Urologist</option>
+  <option value="3">Orthopedist</option>
+  <option value="4">Immunologist/Allergy Specialist</option>
+  <option value="5">Endocrinologist</option>
+  <option value="6">Pediatric Endocrinologist </option>
+<option value="7">Geneticist </option>
+<option value="8">Gastroenterologist </option>
+<option value="9">Geriatrist </option>
+<option value="10">Oncologist </option>
+<option value="11">Gynecologist </option>
+<option value="12">Pediatrician </option>
+<option value="13">General Surgeon </option>
+<option value="14">Hematologist </option>
+<option value="15">Neurologist </option>
+<option value="16">Pulmonologist </option>
+<option value="17">Nephrologist </option>
+<option value="18">Dermatologist </option>
+<option value="19">Eye Doctor </option>
+<option value="20">Burn Reconstruction and Plastic Surgeon </option>
+<option value="21">Psychiatrist </option>
+<option value="22">Psychologist </option>
+<option value="23">Cardiologist </option>
+<option value="24">Rheumatologist </option>
+<option value="25">Dentist </option>
+<option value="26">Orthodontist </option>
+<option value="27">Other </option>
+
+</select>
+  </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-primary">Next</button>
+    </div>
+   
+  </div>
+</form></div>
+
+    </div> <!-- /container -->
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
