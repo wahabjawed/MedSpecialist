@@ -1,7 +1,7 @@
 var APP_CONSTANTS = {
     BASE_URL: "http://fajjemobile.info/MedSpecialist/",
 	REGISTER: "register.php",
-	MSG_ACTION_FAILED: "Failed",
+	MSG_ACTION_FAILED: "Failed"
 	
 }
 
@@ -16,5 +16,5 @@ var JSON_CONSTANTS = {
     STATUS_CODE_404: "404",
     STATUS_CODE_401: "401",
     STATUS_CODE_403: "403",
-    STATUS_CODE_302: "302",
+    STATUS_CODE_302: "302"
 }

@@ -20,11 +20,13 @@ function signupButton(){
 	var inputPhone = $('#inputPhone').val();
 	var inputUser = $('#inputUser').val();
 	var inputPassword = $('#inputPassword').val();
+	var picture = "pic.png";
+	alert(inputUser);
+	alert(inputPassword);
 	
 	
 	var requestData = {"name": name, "inputSpeciality": inputSpeciality, "inputLicense": inputLicense, 
-						"inputLocation": inputLocation, "inputInsurance": inputInsurance, "inputPInsurance": inputPInsurance,"inputBio":inputBio,
-						"inputEmail":inputEmail,"inputPhone":inputPhone,"inputUser":inputUser,"inputPassword":inputPassword } 
+						"inputLocation": inputLocation, "inputInsurance": inputInsurance, "inputPInsurance": inputPInsurance, "pic":picture,"inputBio":inputBio,"inputEmail":inputEmail,"inputPhone":inputPhone, "inputUser":"ammar","inputPassword":"torpedo1"} 
 	
 	signupRequest(requestData);
 	
@@ -33,11 +35,13 @@ function signupButton(){
 function signupRequest(requestData)
 {
 	var registerFailed = function (response) {
+		alert('failed response: ' + JSON.stringify(response));
 		failedResponse(response, APP_CONSTANTS.MSG_ACTION_FAILED);
     }
 	
 	var registerSuccess = function(response) {
-		
+		response = JSON.stringify(response);
+		console.log('response: ' + response);
 		//alert(response);
 		/*var successMsg;
 		if(response.success != null) {
@@ -51,11 +55,11 @@ function signupRequest(requestData)
 	}
 	console.log('JSON.stringify(requestData): '+ JSON.stringify(requestData));
 	var jsonHelper = new ServiceHelper();
-	jsonHelper.registerDoctor(JSON_CONSTANTS.POST, JSON.stringify(requestData), registerSuccess, registerFailed);
+	jsonHelper.registerDoctor(JSON_CONSTANTS.POST, requestData, registerSuccess, registerFailed);
 }
 
 function failedResponse(response, failedMsg) {
-	alert('failed');
+	//alert('failed');
 	/*if(response != "" && response.responseText != "") {
 		var result = eval('(' + response.responseText + ')')
 		alert(result.error[0]);

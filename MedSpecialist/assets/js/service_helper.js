@@ -6,15 +6,14 @@ this.httpRequest = function (request_url, type, data, dataType, succesCallBack, 
     			url: request_url,
     			type: type,
     			success: function (response) {
-                    console.log("resp: " + request_url);
+                    console.log("request_url: " + request_url);
+					console.log("success_response: " + response);
                     succesCallBack(response);
-                },  
-                headers: {
-                    //contentType: "text/json",
-                    Accept: "text/json"
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     console.log("error: " + request_url);
+					console.log("textstatus: " + textStatus );
+					console.log("errorThrown: " + errorThrown);
                 	switch (jqXHR.status) {
 	                case 403 : 
 	                	if(request_url.indexOf('login') == -1) {
@@ -74,32 +73,16 @@ this.httpRequest = function (request_url, type, data, dataType, succesCallBack, 
     	if(data != null) {
     		ajaxSettings["data"] = data;
     	}
-    	
-    	if(type == JSON_CONSTANTS.POST && (request_url.indexOf('login') == -1) ) {
-    		ajaxSettings["dataType"] = dataType;
-    		//ajaxSettings["contentType"] = JSON_CONSTANTS.CONTENT_TYPE;
-		} 
-    	else if(type == JSON_CONSTANTS.PUT) {
-			ajaxSettings["contentType"] = JSON_CONSTANTS.CONTENT_TYPE;
-			ajaxSettings["headers"] = {
-					"DEVICETYPE":"MOBILE",
-					"X-Requested-With":"XMLHttpRequest",
-			        Accept : JSON_CONSTANTS.ACCEPT
-        	}
-		}
-    	else if(type == JSON_CONSTANTS.DELETE ) {
-			ajaxSettings["headers"] = { 
-					"DEVICETYPE":"MOBILE",
-					"X-Requested-With":"XMLHttpRequest",
-					Accept : JSON_CONSTANTS.ACCEPT
-			}
-		}
+		
     	$.ajax(ajaxSettings);
-
     }
 	
 	this.registerDoctor = function(type, data, successCallBack, failedCallBack) {
 	    var url = APP_CONSTANTS.BASE_URL + APP_CONSTANTS.REGISTER;
-		this.httpRequest(url, type, data, null, successCallBack, failedCallBack, true);	    
+		alert('type: '+ type);
+		alert('url: ' + url);
+		alert('data' + data);
+		
+		this.httpRequest(url, type, data, "json", successCallBack, failedCallBack, true);	    
 	}
 }

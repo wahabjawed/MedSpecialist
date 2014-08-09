@@ -1,195 +1,169 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        
-        <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
-    
-        <title>MedicalSpecialist</title>
-    </head>
-    <body>
-       <div class="container">
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
 
-<div class="jumbotron" style="margin-top:20px">
-  <h2>Sign-Up as a Doctor</h2>
-  <form class="form-horizontal" role="form">
-  <div class="form-group">
-    <label for="inputName" class="col-sm-2 control-label">Name</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name" required autofocus>
-    </div>
-  </div>
-  
-    <div class="form-group">
-    <label for="inputSpeciality" class="col-sm-2 control-label">Speciality</label>
-    <div class="col-sm-10">
-    <select class="form-control" name="inputSpeciality" id="inputSpeciality" required>
- <option value="0">Select</option>
-  <option value="1">Nose, Ear, Throat (Otolaryngologist)</option>
-  <option value="2">Urologist</option>
-  <option value="3">Orthopedist</option>
-  <option value="4">Immunologist/Allergy Specialist</option>
-  <option value="5">Endocrinologist</option>
-  <option value="6">Pediatric Endocrinologist </option>
-<option value="7">Geneticist </option>
-<option value="8">Gastroenterologist </option>
-<option value="9">Geriatrist </option>
-<option value="10">Oncologist </option>
-<option value="11">Gynecologist </option>
-<option value="12">Pediatrician </option>
-<option value="13">General Surgeon </option>
-<option value="14">Hematologist </option>
-<option value="15">Neurologist </option>
-<option value="16">Pulmonologist </option>
-<option value="17">Nephrologist </option>
-<option value="18">Dermatologist </option>
-<option value="19">Eye Doctor </option>
-<option value="20">Burn Reconstruction and Plastic Surgeon </option>
-<option value="21">Psychiatrist </option>
-<option value="22">Psychologist </option>
-<option value="23">Cardiologist </option>
-<option value="24">Rheumatologist </option>
-<option value="25">Dentist </option>
-<option value="26">Orthodontist </option>
-<option value="27">Other </option>
-
-</select>
-    </div>
-  </div>
-  
-  
-   <div class="form-group">
-    <label for="inputLicense" class="col-sm-2 control-label">License Number</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" name="inputLicense" id="inputLicense" placeholder="License Number" required>
-    </div>
-  </div>
-  
-     <div class="form-group">
-    <label for="inputLocation" class="col-sm-2 control-label">Location</label>
-    <div class="col-sm-10">
-<select class="form-control" name="inputLocation" id="inputLocation" required>
-<option value="0">Select</option>
-<option value="1">Eilat Area</option>
-<option value="2">Beer Sheba Area</option>
-<option value="3">Ashkelon/Ashdod Area</option>
-<option value="4">Tel Aviv Area</option>
-<option value="5">Jerusalem Area</option>
-<option value="6">Hadera Area</option>
-<option value="7">Haifa Area</option>
-<option value="8">Kiryat Shemona Area</option>
-<option value="9">Judea and Samarian Area</option>
-<option value="10">Naharriya/Safed Area</option>
-<option value="11">Nazareth Area</option>
-
-</select>
-    
-    </div>
-  </div>
-  
-  
-    <div class="form-group">
-    <label for="inputInsurance" class="col-sm-2 control-label">Accepted Insurance</label>
-    <div class="col-sm-10">
-	<select class="form-control" name="inputInsurance" id="inputInsurance" 	required>
-    <option value="0">Select</option>
-  <option value=”1”>Clalit</option>
-<option value=”2”>Macabi</option>
-<option value=”3”>Meuhedet</option>
-<option value=”4”>Leumit</option>
-
-  </select>    
-    </div>
-  </div>
-
-
-  <div class="form-group">
-    <label for="inputPInsurance" class="col-sm-2 control-label">Accepted Private Insurance</label>
-    <div class="col-sm-10">
-	<select class="form-control" name="inputPInsurance" id="inputPInsurance" 	required>
-<option value="0">Select</option>
-<option value=”1”>Fenix</option>
-<option value=”2”>Clal</option>
-<option value=”3”>Itarel</option>
-<option value=”4”>AIG</option>
-<option value=”5”>Migdal</option>
-
-  </select>    
-    </div>
-  </div>
-  
-  
-     <div class="form-group">
-    <label for="inputPicture" class="col-sm-2 control-label">Picture</label>
-    <div class="col-sm-10">
-        <input type="file" id="inputPicture">
-    </div>
-  </div>
-  
-  
-  
-       <div class="form-group">
-    <label for="inputBio" class="col-sm-2 control-label">Bio</label>
-    <div class="col-sm-10">
-  <textarea class="form-control" id="inputBio" name="inputBio" rows="3"></textarea>
-    </div>
-  </div>
-  
-     <div class="form-group">
-    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="Email" required>
-    </div>
-  </div>
-  
-     <div class="form-group">
-    <label for="inputPhone" class="col-sm-2 control-label">Phone Number</label>
-    <div class="col-sm-10">
-      <input type="tel" class="form-control" name="inputPhone" id="inputPhone" placeholder="Phone Number" required>
-    </div>
-  </div>
-  
-  
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+<title>MedicalSpecialist</title>
+</head>
+<body>
+<div class="container">
+  <div class="jumbotron" style="margin-top:20px">
+    <h2>Sign-Up as a Doctor</h2>
+    <form class="form-horizontal" role="form">
       <div class="form-group">
-    <label for="inputUser" class="col-sm-2 control-label">Username</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" name="inputUser" id="inputUser" placeholder="Username" required>
-    </div>
+        <label for="inputName" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name" required autofocus>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputSpeciality" class="col-sm-2 control-label">Speciality</label>
+        <div class="col-sm-10">
+          <select class="form-control" name="inputSpeciality" id="inputSpeciality" required>
+            <option value="0">Select</option>
+            <option value="1">Nose, Ear, Throat (Otolaryngologist)</option>
+            <option value="2">Urologist</option>
+            <option value="3">Orthopedist</option>
+            <option value="4">Immunologist/Allergy Specialist</option>
+            <option value="5">Endocrinologist</option>
+            <option value="6">Pediatric Endocrinologist </option>
+            <option value="7">Geneticist </option>
+            <option value="8">Gastroenterologist </option>
+            <option value="9">Geriatrist </option>
+            <option value="10">Oncologist </option>
+            <option value="11">Gynecologist </option>
+            <option value="12">Pediatrician </option>
+            <option value="13">General Surgeon </option>
+            <option value="14">Hematologist </option>
+            <option value="15">Neurologist </option>
+            <option value="16">Pulmonologist </option>
+            <option value="17">Nephrologist </option>
+            <option value="18">Dermatologist </option>
+            <option value="19">Eye Doctor </option>
+            <option value="20">Burn Reconstruction and Plastic Surgeon </option>
+            <option value="21">Psychiatrist </option>
+            <option value="22">Psychologist </option>
+            <option value="23">Cardiologist </option>
+            <option value="24">Rheumatologist </option>
+            <option value="25">Dentist </option>
+            <option value="26">Orthodontist </option>
+            <option value="27">Other </option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputLicense" class="col-sm-2 control-label">License Number</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="inputLicense" id="inputLicense" placeholder="License Number" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputLocation" class="col-sm-2 control-label">Location</label>
+        <div class="col-sm-10">
+          <select class="form-control" name="inputLocation" id="inputLocation" required>
+            <option value="0">Select</option>
+            <option value="1">Eilat Area</option>
+            <option value="2">Beer Sheba Area</option>
+            <option value="3">Ashkelon/Ashdod Area</option>
+            <option value="4">Tel Aviv Area</option>
+            <option value="5">Jerusalem Area</option>
+            <option value="6">Hadera Area</option>
+            <option value="7">Haifa Area</option>
+            <option value="8">Kiryat Shemona Area</option>
+            <option value="9">Judea and Samarian Area</option>
+            <option value="10">Naharriya/Safed Area</option>
+            <option value="11">Nazareth Area</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputInsurance" class="col-sm-2 control-label">Accepted Insurance</label>
+        <div class="col-sm-10">
+          <select class="form-control" name="inputInsurance" id="inputInsurance" 	required>
+            <option value="0">Select</option>
+            <option value="1">Clalit</option>
+            <option value="2">Macabi</option>
+            <option value="3">Meuhedet</option>
+            <option value="4">Leumit</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPInsurance" class="col-sm-2 control-label">Accepted Private Insurance</label>
+        <div class="col-sm-10">
+          <select class="form-control" name="inputPInsurance" id="inputPInsurance" 	required>
+            <option value="0">Select</option>
+            <option value="1">Fenix</option>
+            <option value="2">Clal</option>
+            <option value="3">Itarel</option>
+            <option value="4">AIG</option>
+            <option value="5">Migdal</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPicture" class="col-sm-2 control-label">Picture</label>
+        <div class="col-sm-10">
+          <input type="file" id="inputPicture">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputBio" class="col-sm-2 control-label">Bio</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" id="inputBio" name="inputBio" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="Email" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPhone" class="col-sm-2 control-label">Phone Number</label>
+        <div class="col-sm-10">
+          <input type="tel" class="form-control" name="inputPhone" id="inputPhone" placeholder="Phone Number" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputUser" class="col-sm-2 control-label">Username</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="inputUser" id="inputUser" placeholder="Username" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default" id="SignUp">Sign up</button>
+        </div>
+      </div>
+    </form>
   </div>
-  
-  <div class="form-group">
-    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-    </div>
-  </div>
-  
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default" id="SignUp">Sign up</button>
-    </div>
-   
-  </div>
-</form></div>
+</div>
+<!-- /container --> 
 
-    </div> <!-- /container -->
-
-        <!-- <script type="text/javascript" src="cordova.js"></script> -->
-        <script type="text/javascript" src="js/index.js"></script>
-        <script src="js/jquery-1.11.1.min.js"></script>
-        <script src="js/main.js"> </script>
-        <script src="js/service_helper.js"></script>
-        <script src="js/constants.js"></script>
-        <script type="text/javascript">
+<!-- <script type="text/javascript" src="cordova.js"></script> --> 
+<script type="text/javascript" src="js/index.js"></script> 
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/main.js"> </script> 
+<script src="js/service_helper.js"></script> 
+<script src="js/constants.js"></script> 
+<script type="text/javascript">
             app.initialize();
         </script>
-    </body>
+</body>
 </html>
