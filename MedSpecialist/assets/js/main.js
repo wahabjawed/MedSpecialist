@@ -4,7 +4,7 @@ $(document).ready()
 {
 	
 	$(document).on('click','#SignUp',signupButton);
-	$(document).on('click','#signin',loginButton);
+	//$(document).on('click','#signin',loginButton);
 	
 }
 
@@ -75,6 +75,7 @@ function loginButton()
 
 function loginUser(requestData)
 {
+	
 	
 	var registerFailed = function (response) {
 		alert('failed response: ' + JSON.stringify(response));
