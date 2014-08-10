@@ -23,16 +23,16 @@
 			 
 			 
 			 
-			$query = "INSERT INTO users(name,speciality,licenseNumber,location,insurance,pInsurance,pic,bio,email,phoneNumber,username,password)VALUES('$name','$inputSpeciality','$inputLicense','$inputLocation','$inputInsurance','$inputPInsurance','pic','$inputBio','$inputEmail','$inputPhone','zohairhemani534522','35252')";
+			$query = "INSERT INTO users(name,speciality,licenseNumber,location,insurance,pInsurance,pic,bio,email,phoneNumber,username,password)VALUES('$name','$inputSpeciality','$inputLicense','$inputLocation','$inputInsurance','$inputPInsurance','pic','$inputBio','$inputEmail','$inputPhone','$inputUser','$inputPassword')";
 			$result = $con->query($query);
 			
 			if($result)
 			{
-				echo sendResponse('200',"OK");
+				echo sendResponse('200','{"success":"Registered Successfully"}');
 			}
 			else
 			{
-				echo sendResponse('200',"NOTOK");
+				echo sendResponse('200','{"error":"Error Occured. Cannot Register."}');
 			}
 		}
 			 

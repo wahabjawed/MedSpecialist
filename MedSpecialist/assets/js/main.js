@@ -24,7 +24,7 @@ function signupButton(){
 	
 	
 	var requestData = {"name": name, "inputSpeciality": inputSpeciality, "inputLicense": inputLicense, 
-						"inputLocation": inputLocation, "inputInsurance": inputInsurance, "inputPInsurance": inputPInsurance, "pic":picture,"inputBio":inputBio,"inputEmail":inputEmail,"inputPhone":inputPhone, "inputUser":"ammar","inputPassword":"torpedo1"} 
+						"inputLocation": inputLocation, "inputInsurance": inputInsurance, "inputPInsurance": inputPInsurance, "pic":picture,"inputBio":inputBio,"inputEmail":inputEmail,"inputPhone":inputPhone, "inputUser":inputUser,"inputPassword":inputPassword} 
 	
 	signupRequest(requestData);
 	
@@ -38,8 +38,14 @@ function signupRequest(requestData)
     }
 	
 	var registerSuccess = function(response) {
-		response = JSON.stringify(response);
 		console.log('response: ' + response);
+		response = JSON.parse(response);
+		if(response.success!=null){
+			alert(response.success);
+		}
+		else{
+			alert(response.error);
+		}
 		
 	}
 	console.log('JSON.stringify(requestData): '+ JSON.stringify(requestData));

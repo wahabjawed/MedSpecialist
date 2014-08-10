@@ -42,4 +42,5 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage"/>
     </feature>
+    <access origin="http://fajjemobile.info" />
 </widget>
