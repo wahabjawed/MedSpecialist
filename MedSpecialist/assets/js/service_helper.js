@@ -79,10 +79,10 @@ this.httpRequest = function (request_url, type, data, dataType, succesCallBack, 
 	
 	this.registerDoctor = function(type, data, successCallBack, failedCallBack) {
 	    var url = APP_CONSTANTS.BASE_URL + APP_CONSTANTS.REGISTER;
-		this.httpRequest(url, type, data, "json", successCallBack, failedCallBack, true);	    
+		this.httpRequest(url, type, data, "json", successCallBack, failedCallBack, false);	    
 	}
 	this.loginUser = function(type, data, successCallBack, failedCallBack) {
 	    var url = APP_CONSTANTS.BASE_URL + APP_CONSTANTS.LOGIN;
-		this.httpRequest(url, type, data, "json", successCallBack, failedCallBack, true);	    
+		this.httpRequest(url, type, data, "json", successCallBack, failedCallBack, false);	    
 	}
 }

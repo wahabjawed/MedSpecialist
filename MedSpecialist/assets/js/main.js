@@ -4,7 +4,7 @@ $(document).ready()
 {
 	
 	$(document).on('click','#SignUp',signupButton);
-	//$(document).on('click','#signin',loginButton);
+	$(document).on('click','#signin',loginButton);
 	
 }
 
