@@ -55,12 +55,12 @@ function signupRequest(requestData)
 
 function failedResponse(response, failedMsg) {
 	//alert('failed');
-	/*if(response != "" && response.responseText != "") {
+	if(response != "" && response.responseText != "") {
 		var result = eval('(' + response.responseText + ')')
 		alert(result.error[0]);
 	} else {
 		alert(failedMsg);
-	}*/
+	}
 }
 
 function loginButton()
