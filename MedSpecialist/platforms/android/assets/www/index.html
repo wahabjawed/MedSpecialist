@@ -88,8 +88,8 @@
 	$.mobile.changePage($("#login"));		
 		
 		}else{
-			$.mobile.loading( "show");
-			getSurvey();
+		//	$.mobile.loading( "show");
+			//getSurvey();
 			
 			
 			}
@@ -173,35 +173,55 @@ var postData = $('#ajaxform').serializeArray();
 	
 	
     </script>
+    
+    <style>
+
+    </style>
+    
     </head>
     <body>
     
+    
+    
+    
+    <div data-role="page" id="main"  data-theme="f" data-content-theme="f">
+      <div data-role="header">
+    <h1>Med Specialist</h1>
+    </div>
+      <div data-role="content">
+     
+  </div>
+      <div data-role="footer" data-position="fixed">
+    <h4>SilverSages Studio</h4>
+  </div>
+    </div>
+    
 
-<div data-role="page" id="surveyList"  data-theme="b" data-content-theme="b">
+<div data-role="page" id="surveyList"  data-theme="f" data-content-theme="f">
       <div data-role="header">
     <h1>Med Specialist</h1>
     <a href="#" data-role="button" data-icon="delete" data-iconpos="left" onclick="logOut()">Logout</a><a href="#register" data-role="button" data-icon="plus" data-iconpos="notext">Button</a> </div>
       <div data-role="content">
-        <ul data-role="listview" data-filter="true" data-filter-placeholder="Search Records..." id = "nameList">
+        <ul data-role="listview" data-filter="true" data-filter-placeholder="Search Doctors..." id = "nameList" data-inset="true">
         </ul>
   </div>
       <div data-role="footer" data-position="fixed">
     <h4>SilverSages Studio</h4>
   </div>
     </div>
-<div data-role="page" id="login" data-theme="b" data-content-theme="b">
+<div data-role="page" id="login" data-theme="f" data-content-theme="f">
       <div data-role="header">
     <h1>Med Specialist</h1>
   </div>
       <div data-role="content">
     <div data-role="fieldcontain">
     <center>
-    <img id="lock" src="/img/SessionLock.png"> 
+    <img id="lock" src="img/SessionLock.png"> 
           </center>
           <input type="text" name="username" id="username" style="border-radius:0" value="" placeholder="Enter Username"  data-clear-btn="true" required/>
           <input type="password" name="password" id="password" value="" placeholder="Enter Password"  data-clear-btn="true"  required/>
           <button data-icon="lock" onclick="loginCheck()">Login</button>
-          <a href="register" data-role="button" data-icon="edit">Register</a>
+          <a href="#register" data-role="button" data-icon="edit">Register</a>
         
         </div>
        
@@ -221,7 +241,7 @@ var postData = $('#ajaxform').serializeArray();
   </div>
     </div>
 
-<div data-role="page" id="register"  data-theme="b" data-content-theme="b">
+<div data-role="page" id="register"  data-theme="f" data-content-theme="f">
       <div data-role="header">
     <h1>Med Specialist</h1>
     <a href="#login" data-role="button" data-icon="arrow-l" data-iconpos="notext">Button</a> </div>

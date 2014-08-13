@@ -82,7 +82,7 @@ html .ui-bar-f,html .ui-page-theme-f .ui-bar-inherit,html .ui-bar-f .ui-bar-inhe
 html .ui-bar-f{border-width:1px;border-style:solid}
 html .ui-overlay-f,html .ui-page-theme-f,html .ui-page-theme-f .ui-panel-wrapper{background:#f9f9f9;border-color:#bbb;color:#333}
 html .ui-body-f,html .ui-page-theme-f .ui-body-inherit,html .ui-bar-f .ui-body-inherit,html .ui-body-f .ui-body-inherit,html body .ui-group-theme-f .ui-body-inherit,html .ui-panel-page-container-f{background:#fff;border-color:#3498db;color:#333}
-html .ui-body-f{border-width:1px;border-style:solid}
+html .ui-body-f{border-width:0px;border-style:solid}
 html .ui-page-theme-f a,html .ui-bar-f a,html .ui-body-f a,html body .ui-group-theme-f a{color:#5dade2;font-weight:bold}
 html .ui-page-theme-f a:visited,html .ui-bar-f a:visited,html .ui-body-f a:visited,html body .ui-group-theme-f a:visited{color:#5dade2}
 html .ui-page-theme-f a:hover,html .ui-bar-f a:hover,html .ui-body-f a:hover,html body .ui-group-theme-f a:hover{color:#5dade2}
