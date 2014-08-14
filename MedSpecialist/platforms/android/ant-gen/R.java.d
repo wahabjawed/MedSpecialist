@@ -1,4 +1,4 @@
-C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-gen\com\phonegap\helloworld\R.java \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-gen\com\silversages\medspecialist\R.java \
  : C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\res\drawable\icon.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\res\drawable-hdpi\icon.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\res\drawable-hdpi\ic_action_next_item.png \
@@ -51,4 +51,6 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\an
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\drawable-xxhdpi\ic_action_next_item.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\drawable-xxhdpi\ic_action_previous_item.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\drawable-xxhdpi\ic_action_remove.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\values\strings.xml \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\xml\config.xml \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\AndroidManifest.xml \

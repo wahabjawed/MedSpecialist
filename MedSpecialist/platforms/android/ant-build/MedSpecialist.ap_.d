@@ -51,6 +51,8 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\an
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\drawable-xxhdpi\ic_action_next_item.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\drawable-xxhdpi\ic_action_previous_item.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\drawable-xxhdpi\ic_action_remove.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\values\strings.xml \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\res\xml\config.xml \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\_where-is-www.txt \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\config.xml \
@@ -64,10 +66,7 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\as
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\plugins \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\profile.html \
-C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\register.html \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\res \
-C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\search.html \
-C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\searchFilter.html \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\spec \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\spec.html \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\stylus \

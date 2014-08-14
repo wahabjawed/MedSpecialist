@@ -6,6 +6,13 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\an
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\phonegap\helloworld\R$string.class \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\phonegap\helloworld\R$xml.class \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\phonegap\helloworld\R.class \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\silversages\medspecialist\BuildConfig.class \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\silversages\medspecialist\MedSpecialist.class \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\silversages\medspecialist\R$attr.class \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\silversages\medspecialist\R$drawable.class \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\silversages\medspecialist\R$string.class \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\silversages\medspecialist\R$xml.class \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\com\silversages\medspecialist\R.class \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\org\apache\cordova\device\Device.class \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$1.class \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$2.class \
