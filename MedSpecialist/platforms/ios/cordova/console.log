@@ -76,3 +76,36 @@ You could find it at the following address https://developer.apple.com/icloud/do
 
 2014-08-12 21:34:42.446 MedSpecialist[6908:90b] Resetting plugins due to page load.
 2014-08-12 21:34:42.577 MedSpecialist[6908:90b] Finished load of: file:///Users/ZCorp/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FB78EF1A-ADD6-4E3A-8A26-A2CB06DBA11F/MedSpecialist.app/www/index.html#login
+2014-08-14 16:06:54.066 MedSpecialist[1760:90b] Multi-tasking -> Device: YES, App: YES
+2014-08-14 16:06:54.247 MedSpecialist[1760:90b] Unlimited access to network resources
+2014-08-14 16:06:54.318 MedSpecialist[1760:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-08-14 16:06:55.406 MedSpecialist[1760:90b] Resetting plugins due to page load.
+2014-08-14 16:06:55.869 MedSpecialist[1760:90b] Finished load of: file:///Users/ZCorp/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/99B6F1F5-0751-4D9F-BA0E-625CF5D9F7E4/MedSpecialist.app/www/index.html
+2014-08-14 16:08:47.730 MedSpecialist[3022:90b] Multi-tasking -> Device: YES, App: YES
+2014-08-14 16:08:47.736 MedSpecialist[3022:90b] Unlimited access to network resources
+2014-08-14 16:08:47.738 MedSpecialist[3022:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-08-14 16:08:47.777 MedSpecialist[3022:90b] Resetting plugins due to page load.
+2014-08-14 16:08:47.891 MedSpecialist[3022:90b] Finished load of: file:///Users/ZCorp/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/99B6F1F5-0751-4D9F-BA0E-625CF5D9F7E4/MedSpecialist.app/www/index.html
+2014-08-14 16:10:33.338 MedSpecialist[3915:90b] Multi-tasking -> Device: YES, App: YES
+2014-08-14 16:10:33.344 MedSpecialist[3915:90b] Unlimited access to network resources
+2014-08-14 16:10:33.349 MedSpecialist[3915:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-08-14 16:10:33.430 MedSpecialist[3915:90b] Resetting plugins due to page load.
+2014-08-14 16:10:33.555 MedSpecialist[3915:90b] Finished load of: file:///Users/ZCorp/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/99B6F1F5-0751-4D9F-BA0E-625CF5D9F7E4/MedSpecialist.app/www/index.html
