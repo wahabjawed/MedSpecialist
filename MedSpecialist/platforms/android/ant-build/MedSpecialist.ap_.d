@@ -64,7 +64,6 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\as
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\index.html \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\jquery-mobile \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\js \
-C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\phonegap.js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\plugins \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\profile.html \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\res \
