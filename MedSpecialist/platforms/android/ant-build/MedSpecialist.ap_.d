@@ -59,11 +59,14 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\as
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\cordova.js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\cordova_plugins.js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\icon.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\img \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\index.html \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\jquery-mobile \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\js \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\phonegap.js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\plugins \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\profile.html \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\res \
@@ -78,6 +81,8 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\as
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\jquery.mobile.structure.css \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\jquery.mobile.structure.custom.css \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\jquery.mobile.theme.css \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\media_queries.css \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\style.css \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\swatches.css \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\fonts\Flat-UI-Icons-24.ttf \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\fonts\Flat-UI-Icons-24.woff \
@@ -90,6 +95,39 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\as
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\fonts\lato-regular.ttf \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\fonts\lato-regular.woff \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\css\images\ajax-loader.gif \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro Black LC.eot \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro Black LC.svg \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro Black LC.svg.readme \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro Black LC.ttf \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro Black LC.woff \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro LC.eot \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro LC.svg \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro LC.svg.readme \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro LC.ttf \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro LC.woff \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro.eot \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro.svg \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro.svg.readme \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro.ttf \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\fonts\Code Pro.woff \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\author.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\banner.jpg \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\fb_hover.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\fb_icon.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\ggl_hover.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\ggl_icon.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\icons_sprite.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\linkdn_hover.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\linkdn_icon.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\logo.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\mail_ico.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\map_ico.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\mobile_ico.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\phone_ico.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\twt.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\twt_hover.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\youtube.png \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\images\youtube_hover.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\img\bg.jpg \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\img\logo.png \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\img\SessionLock.png \
@@ -311,6 +349,7 @@ C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\as
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\jquery-mobile\images\icons-svg\user-white.svg \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\jquery-mobile\images\icons-svg\video-black.svg \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\jquery-mobile\images\icons-svg\video-white.svg \
+C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\js\function.js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\js\index.js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\js\jquery.js \
 C:\Users\Wahab\Documents\github\MedSpecialist\MedSpecialist\platforms\android\assets\www\js\jquery.mobile-1.4.0-rc.1.js \
