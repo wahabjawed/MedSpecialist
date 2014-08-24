@@ -96,12 +96,13 @@ type: "GET",
 async: true,
 data: {user:userid,password:pass},
 success:function(response){
+//alert(response);
+var response=response.split(",");
 
-
-
-if(response!="No"){
+if(response[0]!="No"){
 localStorage.setItem("login", "Yes");
-//  localStorage.setItem("user", response);
+localStorage.setItem("user", response[1]);
+$("#propage").attr('src', "profile.html?ID="+response[1]);
 $.mobile.changePage($("#profile"),"slide");
 // getSurvey();
 

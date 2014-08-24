@@ -6,7 +6,7 @@ header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 		//require_once('PHP/recaptchalib.php');   // Captcha Library.
 		
 		$username = $_GET['username'];
-					$query = "select * from users  where username = '{$username}'";
+					$query = "select * from users inner join speciality on speciality =spec_id inner join location on loc_id=location  where user_id = '{$username}'";
 					
 				
 			$result = mysqli_query($con,$query)
@@ -14,9 +14,9 @@ header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 
 			
 					$data="";
-			while($row=mysqli_fetch_array($result))
+			while($row=mysqli_fetch_row($result))
 			{
-			$data = $data.",".$row['name'];
+			$data = implode("^",$row);
 			}
 			
 			echo "$data";

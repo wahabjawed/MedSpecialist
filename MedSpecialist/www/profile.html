@@ -8,6 +8,67 @@
 <link rel="stylesheet" href="css/media_queries.css" type="text/css" />
 <script src="js/jquery.js"></script>
 
+<script>
+    function get(name) {
+            if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))
+                return decodeURIComponent(name[1]);
+        }
+	
+
+$(document).ready(function () {
+				  
+  //	if(localStorage.getItem("login")!="Yes"){
+  
+  //$.mobile.changePage($("#login"));
+  
+  //}else{
+  //	$.mobile.loading( "show");
+  //getSurvey();
+				  
+								  
+//		}
+                                              
+
+	
+	  var userID = String(get('ID'));
+		
+    
+	
+	
+	
+	$.ajax({
+		   
+		   url : "http://fajjemobile.info/MedSpecialist/getProfile.php",
+		   type: "GET",
+		   async: true,
+		   data: {username:userID},
+		   success:function(response){
+		   
+		  // alert(response);
+		   
+		   var response=response.split("^");
+		   $("#name").html(response[1]);
+		   $("#speciality").html(response[14]);
+		   $("#email").html(response[9]);
+		   $("#phone").html(response[10]);
+		   $("#desc").html(response[8]);
+		   $("#location").html(response[16]);
+		  
+		  },
+		   error: function (request, status, error) {
+
+		   alert("Couldn't connect to the internet");
+		   }
+		   
+		   
+		   
+		   });
+		   
+
+
+});
+</script>
+
 </head>
 
 <body>
@@ -24,7 +85,7 @@
             <div class="video_sec">
                 <div class="video">
                 	
-                	<iframe id="ytplayer" class="youtube-player" type="text/html" width="450" height="340" src="https://www.youtube-nocookie.com/embed/3S6A99fff-Q?wmode=opaque&autoplay=0&loop=1&playlist=51FPDecJGM0"  style="max-width:100%;" frameborder="0" allowfullscreen></iframe>
+                	<iframe id="ytplayer" class="youtube-player" type="text/html" width="450" height="340" src=""  style="max-width:100%;" frameborder="0" allowfullscreen></iframe>
                      
                 </div>
                 <div class="clear"></div>
@@ -43,13 +104,13 @@
             
             <div class="author">
             	<div class="author_detail">
-                	<h1>Zohair Hemani</h1>
-                    <h2>Silver Sages</h2>
+                	<h1 id="name"></h1>
+                    <h2 id="speciality">Silver Sages</h2>
                     
                     <address>
-                   <p>Edoptions inc,<br />
-                    237 Lorem ipsum,<br/>
-                    San Franscisco, CA</p>
+                   <p id= "phone">Edoptions inc,</p><br />
+                    <p id= "email">237 Lorem ipsum,</p><br/>
+                    <p id="location">San Franscisco, CA</p>
                     
                     </address>
                     
@@ -58,7 +119,7 @@
                 	<img src="images/author.png" width="135" alt="author image" />
                 </div>
                 <div class="clear"></div>
-                <p class="disc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                <p class="disc" id="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
 </p>
             </div>
             

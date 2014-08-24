@@ -16,7 +16,7 @@ include 'headers/connect_database.php';
 		
 			if(mysqli_num_rows($result)>0){
 			$row=mysqli_fetch_array($result);
-			$data=$row['user_id'];
+			$data="Yes,".$row['user_id'];
 			
 			}else{
 			
