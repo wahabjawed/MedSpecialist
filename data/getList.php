@@ -39,7 +39,7 @@ header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 					$data="";
 			while($row=mysqli_fetch_array($result))
 			{
-			$data = $data.",".$row['name'];
+			$data = $data.",".$row['name']."#".$row['user_id']."#".$row['online'];
 			}
 			
 			echo "$data";

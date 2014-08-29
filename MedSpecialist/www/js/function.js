@@ -31,15 +31,21 @@ function getDoctor(){
 		   $("#nameList").empty();
 		   for(var i =1;i<list.length;i++){
 		   
+		   var lists = list[i].split("#");
 		   
+		   var online="arrow-l";
 		   
-		   $("#nameList").append($('<li/>', {    //here appending `<li>`
+		   if(lists[2]==1){
+			 online="arrow-r";  
+			}
+		   
+		   $("#nameList").append($('<li/>', { 'data-icon':''+online   //here appending `<li>`
 								   
 	   }).append($('<a/>', {    //here appending `<a>` into `<li>`
-				   'href':'#profile',
+				   'href':'#profile?ID='+lists[1],
 				   'rel':'external',
 				   'data-transition':'pop',
-				   'text': list[i]
+				   'text': lists[0]
 				   })));
 		   
 		   }

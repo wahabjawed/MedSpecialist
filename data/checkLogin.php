@@ -18,6 +18,9 @@ include 'headers/connect_database.php';
 			$row=mysqli_fetch_array($result);
 			$data="Yes,".$row['user_id'];
 			
+			$query = "update users set online = 1 where username = '$user'";
+			$result = mysqli_query($con,$query);
+			
 			}else{
 			
 			$data="No";	
