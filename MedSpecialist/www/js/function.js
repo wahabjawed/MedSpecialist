@@ -2,7 +2,7 @@
 
                   
  function LoadProfileDoctor(ID){
-	 alert(ID);
+
 	 $("#propagedoc").attr('src', "profile.html?ID="+ID);
       $.mobile.changePage($("#profileDoc"),"slide");
 	 }				  
