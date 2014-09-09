@@ -1,12 +1,30 @@
 // JavaScript Document
 
                                 
-                                function logOut(){
+ function logOut(){
                                     
-                                    localStorage.setItem("login", "");
+    								var postData =localStorage.getItem("user");
+	
+	
+							$.ajax({
+								   
+								   url : "http://fajjemobile.info/MedSpecialist/logout.php",
+								   type: "GET",
+								   async: true,
+								   data: {user:postData},
+								   success:function(response){
+	                                localStorage.setItem("login", "");
                                     localStorage.setItem("user", "");
                                     $.mobile.changePage($("#login"));
-                                    
+								   },
+								   error: function (request, status, error) {
+								   alert("Couldn't connect to the internet");
+								   }
+								   
+								   
+								   
+								   });
+	
                                 }
                             
                             
