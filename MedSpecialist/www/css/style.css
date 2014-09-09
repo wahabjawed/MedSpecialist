@@ -28,7 +28,23 @@ body{background:#fff url(../images/tile-bg.jpg) repeat; font-family: 'Conv_Code 
 
 .content_inner{width:480px; margin:10px auto 0 auto; border-radius:8px 8px 0 0;}
 .contact_info{width:100%; background:#155b84;}
-.contact_info ul{width:95%; display:table; padding:10px; margin:0 auto;}
+
+
+
+.contact_info ul {
+width: 95%;
+/* display: table; */
+padding: 10px;
+margin: 0 auto;
+/* text-align: center; */
+margin-left: auto;
+margin-right: auto;
+width: 320px;
+}
+
+
+
+
 .contact_info ul li{display:table-cell; width:25%; text-align:center;}
 .heading h1{color:#245e9e; font-size:32px; font-family:'Conv_Code Pro LC', Helvetica, Arial, sans-serif;}
 .heading h2{color:#4d4d4d; font-size:18px; font-family:'Conv_Code Pro LC', Helvetica, Arial, sans-serif;}
