@@ -32,7 +32,7 @@ input#sbmt{ font-size:13px; width:60%; float:none; margin:10px auto; display:blo
 input#txt{width:95%; margin:5px auto; float:none;}
 input.add_to_contact{width:60%; margin:0px auto; float:none;}
 .author_img {margin-top:2%;}
-.contact_info li img{width:95%;}
+.contact_info li img{width:40%;}
 .contact_info li{width:22%;}
 
 }
