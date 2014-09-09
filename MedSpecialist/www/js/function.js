@@ -1,6 +1,12 @@
 // JavaScript Document
 
-                                
+                  
+ function LoadProfileDoctor(ID){
+	 alert(ID);
+	 $("#propagedoc").attr('src', "profile.html?ID="+ID);
+      $.mobile.changePage($("#profileDoc"),"slide");
+	 }				  
+				                
  function logOut(){
                                     
     								var postData =localStorage.getItem("user");
@@ -60,7 +66,7 @@ function getDoctor(){
 		   $("#nameList").append($('<li/>', { 'data-icon':''+online   //here appending `<li>`
 								   
 	   }).append($('<a/>', {    //here appending `<a>` into `<li>`
-				   'href':'#profile?ID='+lists[1],
+				   'onclick':'LoadProfileDoctor('+lists[1]+')',
 				   'rel':'external',
 				   'data-transition':'pop',
 				   'text': lists[0]
