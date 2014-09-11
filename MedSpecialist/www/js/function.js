@@ -3,8 +3,8 @@
                   
  function LoadProfileDoctor(ID){
 
-	 $("#propagedoc").attr('src', "profile.html?ID="+ID);
-      $.mobile.changePage($("#profileDoc"),"slide");
+								 $("#propagedoc").attr('src', "profile.html?ID="+ID);
+								  $.mobile.changePage($("#profileDoc"),"slide");
 	 }				  
 				                
  function logOut(){
